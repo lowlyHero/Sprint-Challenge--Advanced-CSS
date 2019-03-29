@@ -6,6 +6,7 @@
 
         @media @phone {
             .main-header-img {
+                margin: 0 auto;
                 width: 100%;
             }
         }
@@ -34,7 +35,9 @@
 
         @media @phone {
             .blast {
-                width: 100%;
+                margin: 0 auto;
+                padding: 10px 0 10px 0;
+                width: 80%;
             }
 
             .sky {
@@ -89,13 +92,19 @@
             }
 
             .btn {
-                .btn-creator(100px, 40px, @btn-bg-color, white, 1.7rem);
+                .btn-creator(100px, 4rem, @btn-bg-color, white, 1.7rem);
             }
         }
 
         .walk-img {
             width: 46%;
             margin-left: 4%;
+
+            @media @phone {
+                margin: 0 auto;
+                padding-bottom: 15px;
+                width: 100%;
+            }
 
             img {
                 width: 100%;
