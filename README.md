@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+   --Adaptive layouts may accommodate different devices using breakpoints and media queries, but still may have hard code written in. Responsive layouts accomodate all devices, screen sizes, and layouts and responsive units are used throughout the project. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+   --Mobile first builds for a mobile device first and adds content as the screen gets bigger. Desktop first works the opposite way where content is taken away to accomodate for less screen space.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+   --Sets the initial font-size to 10px to make the rem unit easier to use. It allows us to work with a base of 10 instead of a base of 16.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+   --Preprocessing is used to speed up development by allowing developers to use things that regular CSS does not support. Including variables, mixins, and nesting.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+   --Nesting is my favorite. Right now I probably have the most trouble with parametric mixins.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
