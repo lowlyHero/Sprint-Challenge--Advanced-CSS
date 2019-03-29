@@ -1,3 +1,26 @@
-.btn(@btn-background-color) {
-    background-color: @btn-background-color;
+.center() {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-creator(@width, @height, @bg-color, @font-color, @font-size) {
+    background-color: @bg-color;
+    border-radius: 5px;
+    .center;
+    cursor: pointer;
+    color: white;
+    font-size: @font-size;
+    height: @height;
+    width: @width;
+
+    @media @phone {
+        width: 100%;
+    }
+
+    &:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: @bg-color;
+    }
 }
